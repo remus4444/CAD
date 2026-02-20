@@ -1,0 +1,17 @@
+Operation concept:
+
+1. Flip a switch to turn the device on
+2. Use up and down buttons to adjust the target temperature
+3. Hit a central button to confirm and start monitoring
+4. A buzzer rings when the target temperature is hit
+5. The user pressed the confirm button to turn the buzzer off
+
+Required parts:
+
+1. A housing (3d printed)
+2. A microcontroller (Arduino nano)
+3. Three buttons (RP3502ARED)
+4. One switch (ANT11SECQE)
+5. A power source (9V battery + snap connector)
+6. A display (SSD1306 0.96 inch I2C OLED)
+7. A buzzer (PS1240P02BT)
