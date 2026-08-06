@@ -3938,7 +3938,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3949,7 +3952,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at 1.27 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3959,8 +3962,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3970,7 +3973,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3980,8 +3983,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
-				(at 0 7.62 0)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3991,7 +3994,7 @@
 					)
 				)
 			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4013,44 +4016,9 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -4062,7 +4030,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -4073,7 +4041,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -4085,7 +4053,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4096,7 +4064,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -4114,7 +4082,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -4124,42 +4092,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4335,18 +4267,6 @@
 		(uuid "33ce2dae-96cb-4e89-867f-35f8a34d64c8")
 	)
 	(junction
-		(at 182.88 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "451725e3-acf9-497b-8041-2cac01b816e9")
-	)
-	(junction
-		(at 193.04 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56e6667f-f15f-41b2-a1ac-c55b0af5f736")
-	)
-	(junction
 		(at 212.09 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4413,12 +4333,6 @@
 		(uuid "bb379dce-e9d3-4291-89f6-1538335eaecf")
 	)
 	(junction
-		(at 182.88 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3434e50-6607-44b2-a6f3-f9415cb802f1")
-	)
-	(junction
 		(at 212.09 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4453,12 +4367,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee81d471-f467-4fcf-b844-6c587ba09a55")
-	)
-	(junction
-		(at 193.04 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66865d4-4eec-4fbc-9f0d-8ef2ac6889ba")
 	)
 	(junction
 		(at 207.01 38.1)
@@ -5358,16 +5266,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 41.91) (xy 182.88 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c8e5bf-11c4-40b2-a0d2-b2176d43fe28")
-	)
-	(wire
-		(pts
 			(xy 182.88 133.35) (xy 182.88 144.78)
 		)
 		(stroke
@@ -5405,16 +5303,6 @@
 			(type default)
 		)
 		(uuid "cc8ab9b2-bddc-4f9d-a60f-e340669c334b")
-	)
-	(wire
-		(pts
-			(xy 182.88 54.61) (xy 182.88 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd09049e-92d5-4cda-b25f-b48e688745a2")
 	)
 	(wire
 		(pts
@@ -5518,16 +5406,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 41.91) (xy 193.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df248f14-989b-41ec-8966-45e032ec151a")
-	)
-	(wire
-		(pts
 			(xy 223.52 144.78) (xy 212.09 144.78)
 		)
 		(stroke
@@ -5605,16 +5483,6 @@
 			(type default)
 		)
 		(uuid "e7ced59b-5094-4137-8fca-91b01c6d2010")
-	)
-	(wire
-		(pts
-			(xy 193.04 54.61) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84d3061-912f-4469-ae52-110cf1209614")
 	)
 	(wire
 		(pts
@@ -5958,92 +5826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 187.96 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d7f903c-2413-4f81-b20c-fbef38cc9642")
-		(property "Reference" "SW2"
-			(at 187.96 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 187.96 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 187.96 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
-			(at 187.96 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 187.96 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c652b019-00ad-4d7d-9fd8-cbf330bcfc6d")
-		)
-		(pin "4"
-			(uuid "5149904d-0226-45fa-b949-7c42cd310694")
-		)
-		(pin "3"
-			(uuid "3338bbf3-ade6-4a16-bc85-f04b7ede8941")
-		)
-		(pin "2"
-			(uuid "17cd4bd2-b04d-43e5-ad55-cd88d794e478")
-		)
-		(instances
-			(project "SilentAlarmClockPCB_V1"
-				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 270.51 38.1 0)
 		(unit 1)
@@ -6284,6 +6066,86 @@
 			(project "SilentAlarmClockPCB_V1"
 				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 187.96 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407545aa-7488-4d30-87ed-e27aca5f9d1f")
+		(property "Reference" "SW4"
+			(at 187.96 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 187.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71bc12f4-758b-47ce-ae4a-9ce7464eecb6")
+		)
+		(pin "1"
+			(uuid "a725ce19-6c2b-496b-a27d-32b342ed6832")
+		)
+		(instances
+			(project "SilentAlarmClockPCB_V1"
+				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -7111,6 +6973,85 @@
 			(project "SilentAlarmClockPCB_V1"
 				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 187.96 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879fcb42-0b5c-49f7-ba77-af0e62bbc837")
+		(property "Reference" "SW3"
+			(at 187.96 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 187.96 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
+			(at 187.96 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 187.96 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c23f9337-e9b4-4930-bc87-1907ab2a73fb")
+		)
+		(pin "1"
+			(uuid "edcf3a42-95a6-45dc-9c2d-4ccca2595d5e")
+		)
+		(instances
+			(project "SilentAlarmClockPCB_V1"
+				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8785,92 +8726,6 @@
 			(project "SilentAlarmClockPCB_V1"
 				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 187.96 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2e9d410-09c3-4c57-b3c8-81be924dafc8")
-		(property "Reference" "SW1"
-			(at 187.96 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 187.96 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
-			(at 187.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.apem.com/medias/download/MEC_switches_serie_MULTIMEC5E.pdf"
-			(at 187.96 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 187.96 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "11b7f602-a025-4209-ba8d-81fa85e8ed85")
-		)
-		(pin "4"
-			(uuid "886cde3a-89d6-4e75-aba0-345912d539fd")
-		)
-		(pin "3"
-			(uuid "c43c7b41-3cac-4fc6-90f0-8f1e45c12782")
-		)
-		(pin "2"
-			(uuid "576c9d32-b60e-400a-8502-523326724750")
-		)
-		(instances
-			(project "SilentAlarmClockPCB_V1"
-				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
