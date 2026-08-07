@@ -6385,20 +6385,132 @@
 		(uuid "fd88af16-8c34-414e-9320-41d6306513c5")
 	)
 	(no_connect
+		(at 264.16 83.82)
+		(uuid "025dd4b6-d124-426f-9900-8d266abcfa2e")
+	)
+	(no_connect
+		(at 124.46 180.34)
+		(uuid "0ece4a2e-9e68-4801-92c8-ec296815874d")
+	)
+	(no_connect
+		(at 264.16 68.58)
+		(uuid "132116f9-595d-4d88-a3da-f311a0a0e4d6")
+	)
+	(no_connect
+		(at 233.68 86.36)
+		(uuid "171a7abb-cb75-441b-b6e3-4016fe746993")
+	)
+	(no_connect
+		(at 264.16 64.77)
+		(uuid "190bbabf-1f59-4e8c-b7fb-8762275e29db")
+	)
+	(no_connect
 		(at 107.95 109.22)
 		(uuid "223dcfc5-bcc3-41e0-ae7f-bf6a6e442b3b")
+	)
+	(no_connect
+		(at 264.16 40.64)
+		(uuid "22ccc641-3a02-427f-bd2f-52537f5f4c03")
+	)
+	(no_connect
+		(at 233.68 60.96)
+		(uuid "2b83b937-e6fc-46ef-9fd8-aa2bb0b9e2da")
+	)
+	(no_connect
+		(at 233.68 63.5)
+		(uuid "35afce01-e8e3-4b00-b488-1e21e36a849b")
+	)
+	(no_connect
+		(at 264.16 81.28)
+		(uuid "393c20bb-44ea-4a5b-a012-6da18b762433")
+	)
+	(no_connect
+		(at 264.16 88.9)
+		(uuid "415a5543-d9b4-48b0-a1bf-24bbfe0c26a5")
+	)
+	(no_connect
+		(at 233.68 55.88)
+		(uuid "46129e5c-619d-42d0-a88b-4d322f669f8b")
+	)
+	(no_connect
+		(at 264.16 53.34)
+		(uuid "4a919cd5-3591-4a73-8d5b-a22b4260f248")
+	)
+	(no_connect
+		(at 264.16 73.66)
+		(uuid "58db7f1a-dad5-4796-85f6-e08e242a83da")
+	)
+	(no_connect
+		(at 264.16 78.74)
+		(uuid "5ce3086d-fe4c-487d-a373-7e544014ba11")
 	)
 	(no_connect
 		(at 212.09 139.7)
 		(uuid "5e8efd63-34df-4d26-8b34-eab874f5620c")
 	)
 	(no_connect
+		(at 264.16 66.04)
+		(uuid "5f51f7b5-756b-40f8-9600-a51c81dddafe")
+	)
+	(no_connect
+		(at 233.68 48.26)
+		(uuid "5f67fd31-ea3f-4d44-b4b1-9fe9c52e3d1d")
+	)
+	(no_connect
 		(at 212.09 142.24)
 		(uuid "80d76e2e-d073-4fe0-8e90-4bc552ccf7b9")
 	)
 	(no_connect
+		(at 233.68 58.42)
+		(uuid "8c05a09d-4bc3-4cc1-8ed0-6c2813c52ac7")
+	)
+	(no_connect
+		(at 264.16 60.96)
+		(uuid "a1d100c8-c91a-4df8-b3fe-a4acc6ce353c")
+	)
+	(no_connect
+		(at 233.68 53.34)
+		(uuid "a400a48c-2572-496d-acbd-63a34a5e84b2")
+	)
+	(no_connect
 		(at 44.45 53.34)
 		(uuid "a5ba2e1f-315f-4e1e-9c2a-1b30b4625746")
+	)
+	(no_connect
+		(at 233.68 88.9)
+		(uuid "a7c6c30b-7a4d-4fc6-91f4-c87b48458655")
+	)
+	(no_connect
+		(at 264.16 38.1)
+		(uuid "a9618151-2233-418c-842d-68784091d8ac")
+	)
+	(no_connect
+		(at 233.68 91.44)
+		(uuid "aabf635f-b5eb-4a65-9af6-128af57cf0dc")
+	)
+	(no_connect
+		(at 165.1 180.34)
+		(uuid "ab1ed4a9-4822-4a43-acc3-9f05a967adf6")
+	)
+	(no_connect
+		(at 264.16 71.12)
+		(uuid "bc243c21-1f5c-4318-b4de-7c0b888c56a2")
+	)
+	(no_connect
+		(at 233.68 50.8)
+		(uuid "bebba726-abed-4256-80c8-32712cc956c9")
+	)
+	(no_connect
+		(at 264.16 86.36)
+		(uuid "ce13d523-c3fb-4cf0-9460-1731d17e98ca")
+	)
+	(no_connect
+		(at 264.16 76.2)
+		(uuid "e6970ec7-2974-4be4-9aba-1cc7b424ca10")
+	)
+	(no_connect
+		(at 264.16 63.5)
+		(uuid "f1fa095b-a211-469d-a51e-c4b4c5d43d21")
 	)
 	(no_connect
 		(at 212.09 137.16)
@@ -7677,6 +7789,16 @@
 			(type default)
 		)
 		(uuid "92154f1f-8bb8-4120-965a-e4b42fb29c42")
+	)
+	(wire
+		(pts
+			(xy 264.16 93.98) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9393dc61-ac1e-478d-9099-519ef65db6d1")
 	)
 	(wire
 		(pts
@@ -10119,7 +10241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PEC11R_4220F_S0024:XDCR_PEC11R-4220F-S0024"
 			(at 68.326 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10777,7 +10899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Copy of DRZ0012A"
+		(property "Footprint" "BQ27441DRZT-G1A:Copy of DRZ0012A"
 			(at 229.87 127 0)
 			(hide yes)
 			(show_name no)
@@ -12104,7 +12226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 121.92 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12197,7 +12319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 113.03 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12522,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "UDFN10_ONS"
+		(property "Footprint" "ESD7104MUTAG:UDFN10_ONS"
 			(at 124.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12870,7 +12992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
 			(at 143.51 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -15802,7 +15924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RGT16_1P7X1P7"
+		(property "Footprint" "BQ24075TRGTR:RGT16_1P7X1P7"
 			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17359,6 +17481,85 @@
 			(project "SilentAlarmClockPCB_V1"
 				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 269.24 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcf0f6f3-6613-449f-8000-c3754acfbbc4")
+		(property "Reference" "#PWR041"
+			(at 275.59 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 269.24 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd91051e-5795-4eb7-8e5e-83ffc90e3f69")
+		)
+		(instances
+			(project "SilentAlarmClockPCB_V1"
+				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
