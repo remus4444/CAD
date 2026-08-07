@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ESD7104MUTAG") (type "KiCad") (uri "C:/GITHUB/CAD/Silent Alarm Clock/Reference CAD Models/ul_ESD7104MUTAG/KiCADv6/2026-08-06_19-52-30.kicad_sym") (options "") (descr ""))
+)
