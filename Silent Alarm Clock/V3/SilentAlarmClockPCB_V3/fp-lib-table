@@ -8,4 +8,5 @@
 	(lib (name "BQ24075TRGTR") (type "KiCad") (uri "C:/GITHUB/CAD/Silent Alarm Clock/Reference CAD Models/ul_BQ24075TRGTR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "TPS62202DBVR") (type "KiCad") (uri "C:/GITHUB/CAD/Silent Alarm Clock/Reference CAD Models/ul_TPS62202DBVR/KiCADv6/footprints.pretty") (options "") (descr ""))
 	(lib (name "B2B-PH-K-S") (type "KiCad") (uri "C:/GITHUB/CAD/Silent Alarm Clock/Reference CAD Models/B2B-PH-K-S") (options "") (descr ""))
+	(lib (name "OS102011MAQA1QN1") (type "KiCad") (uri "/home/remus444/Documents/GITHUB/CAD/Silent Alarm Clock/Reference CAD Models/OS102011MA1QN1/KiCADv6/footprints.pretty") (options "") (descr ""))
 )
