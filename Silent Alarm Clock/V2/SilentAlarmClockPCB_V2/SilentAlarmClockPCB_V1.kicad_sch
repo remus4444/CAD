@@ -10387,7 +10387,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e8ae975-ff97-49a7-854b-e4e813e5740a")
 		(property "Reference" "#PWR038"
 			(at 123.19 179.07 0)
@@ -10401,7 +10400,7 @@
 			)
 		)
 		(property "Value" "V_USB"
-			(at 115.57 179.0699 90)
+			(at 118.364 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
