@@ -11124,7 +11124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" ""
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11267,7 +11267,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 121.412 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11360,7 +11360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" ""
 			(at 149.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -13482,7 +13482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 167.64 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13971,7 +13971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4"
+		(property "Footprint" ""
 			(at 149.86 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -14047,7 +14047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" ""
 			(at 149.86 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14822,7 +14822,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF"
 			(at 130.81 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15118,6 +15118,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be877f39-e4d2-4db4-b3f2-a36e9cd8f94c")
+		(property "Reference" "H8"
+			(at 152.4 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.4 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SilentAlarmClockPCB_V1"
+				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 152.4 33.02 0)
 		(unit 1)
@@ -15386,7 +15462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" ""
 			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15783,7 +15859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" ""
 			(at 149.86 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -16762,7 +16838,7 @@
 				)
 			)
 		)
-		(property "Value" "1.1k"
+		(property "Value" "440"
 			(at 115.57 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16815,6 +16891,82 @@
 			(project "SilentAlarmClockPCB_V1"
 				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 149.86 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec61c203-0a6b-48ef-baf2-bfc3ddd1e826")
+		(property "Reference" "H7"
+			(at 152.4 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 152.4 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 149.86 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "SilentAlarmClockPCB_V1"
+				(path "/9e0581d1-a9e9-4515-9473-537630af280a"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -17028,7 +17180,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10k"
 			(at 139.7 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17269,7 +17421,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 175.006 57.912 0)
 			(show_name no)
 			(do_not_autoplace no)
